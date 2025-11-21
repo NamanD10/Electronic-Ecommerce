@@ -19,7 +19,7 @@
 ## 🚀 Tech Stack
 
 - **Backend:** Java (JSP & Servlets), JDBC, Oracle Database
-- **Frontend:** HTML, CSS, JSP, [Bootstrap](https://getbootstrap.com/) (optional)
+- **Frontend:** HTML, CSS, JSP, Bootstrap (optional)
 - **Utilities:** JavaMail API (email notifications), Custom utilities (`DBUtil`, `JavaMailUtil`, `IDUtil`, `AppInfo`)
 - **Architecture:** MVC-like, layered packages for POJO, DAO, Servlets, Utilities, Listeners
 
