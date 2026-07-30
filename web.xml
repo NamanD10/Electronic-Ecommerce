@@ -2,7 +2,7 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <listener>
         <listener-class>
-            in.neotronix.listener.DBConnectionListener
+            in.neotronix.servlet.src.in.neotronix.listener.DBConnectionListener
         </listener-class>
     </listener>
     <!--This context param is for DB URL-->
@@ -34,79 +34,79 @@
     </context-param>
     <servlet>
         <servlet-name>LandingServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.LandingServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.LandingServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ShowImageServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.ShowImageServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.ShowImageServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.LoginServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.LoginServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AdminViewServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.AdminViewServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.AdminViewServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserHomeServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.UserHomeServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.UserHomeServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddProductServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.AddProductServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.AddProductServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateProductByIdServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.UpdateProductByIdServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.UpdateProductByIdServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateProductServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.UpdateProductServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.UpdateProductServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveProductServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.RemoveProductServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.RemoveProductServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddToCartServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.AddToCartServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.AddToCartServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CartDetailsServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.CartDetailsServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.CartDetailsServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateCartServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.UpdateCartServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.UpdateCartServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>OrderServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.OrderServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.OrderServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserProfileServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.UserProfileServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.UserProfileServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AdminStockServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.AdminStockServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.AdminStockServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RegistrationServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.RegistrationServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.RegistrationServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ShippedItemServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.ShippedItemServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.ShippedItemServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LogoutServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.LogoutServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.LogoutServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UnshippedItemServlet</servlet-name>
-        <servlet-class>in.neotronix.servlet.UnshippedItemServlet</servlet-class>
+        <servlet-class>in.neotronix.servlet.src.in.neotronix.servlet.UnshippedItemServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LandingServlet</servlet-name>
