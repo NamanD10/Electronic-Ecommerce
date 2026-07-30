@@ -1,14 +1,9 @@
 # NeoTronix - Electronic Device E-Commerce Web Application
 
-> **Developed by:** Pushpraj Singh Chauhan
+> **Developed by:** Naman Dubey
 
 ---
 
-## 🎬 Demo Video
-
-> **Click [this link](https://drive.google.com/file/d/16VueDdjppmu-G_nBPm8ThKoevbNIwiCo/view?usp=drive_link) to watch the full demo video of NeoTronix.**
-
----
 
 ## 📋 Overview
 
